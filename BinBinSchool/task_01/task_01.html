@@ -3,20 +3,32 @@
     <head>
         <meta charset="utf-8">
         <title>IFE JavaScript Task 01</title>
+    </head>
 <body>
-
     <label>请输入北京今天的空气质量: <input id="aqi-input" type="text"></label>
     <button id="button" onclick="weather()">确认填写</button>
 
     <div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
-</body>
+    <label id="la">想改变世界吗？</label>
+    <button id="button2" onclick="changeW()">点我有惊喜哦！</button>
+
 <script type="text/javascript">
     function weather() {
-        var weai = document.getElementById("aqi-input");
-        var weag = document.getElementById("aqi-display");
-        weag.innerHTML = weai;
+//        获取input的value值
+        var a = document.getElementById("aqi-input").value;
+//        将aqi-display的值替换为input的value值
+        var b = document.getElementById("aqi-display");
+        b.innerHTML=a;
+    }
+    function changeW() {
+        var message = confirm("Are you sure？？？");
+        if(message == true) {
+            document.getElementById("la").innerHTML="CHANGE THE WORLD NOW !"
+            var n = document.getElementById("button2");
+            document.getElementById("button2").style.display="none";
+        }
     }
 </script>
+</body>
 
-    </head>
 </html>

@@ -17,8 +17,8 @@
       <file leaf-file-name="task_01.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task_01/task_01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="120">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -30,6 +30,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/task_01/task_01.html" />
+        <option value="$PROJECT_DIR$/task_01/README.MD" />
       </list>
     </option>
   </component>
@@ -40,8 +41,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="377" />
     <option name="y" value="232" />
+=======
+    <option name="x" value="360" />
+    <option name="y" value="135" />
+>>>>>>> 85cb635a981fcc988b3ee1fb6b92f8959e45fa7a
     <option name="width" value="1155" />
     <option name="height" value="788" />
   </component>
@@ -60,8 +66,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+>>>>>>> 85cb635a981fcc988b3ee1fb6b92f8959e45fa7a
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,6 +82,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> 85cb635a981fcc988b3ee1fb6b92f8959e45fa7a
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -102,16 +116,29 @@
       <option name="presentableId" value="Default" />
       <updated>1523458472986</updated>
       <workItem from="1523458474325" duration="6431000" />
+<<<<<<< HEAD
       <workItem from="1523496827614" duration="8356000" />
       <workItem from="1523582740319" duration="610000" />
+=======
+      <workItem from="1523496827614" duration="8298000" />
+      <workItem from="1523540836102" duration="6366000" />
+>>>>>>> 85cb635a981fcc988b3ee1fb6b92f8959e45fa7a
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="15397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="377" y="232" width="1155" height="788" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="21095000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="360" y="135" width="1155" height="788" extended-state="0" />
+    <editor active="true" />
+>>>>>>> 85cb635a981fcc988b3ee1fb6b92f8959e45fa7a
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18876207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -158,10 +185,25 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/task_01/task_01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+=======
+    <entry file="file://$PROJECT_DIR$/task_01/README.MD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_01/task_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+>>>>>>> 85cb635a981fcc988b3ee1fb6b92f8959e45fa7a
           <folding />
         </state>
       </provider>
