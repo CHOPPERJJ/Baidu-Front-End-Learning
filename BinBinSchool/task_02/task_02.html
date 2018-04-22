@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>IFE JavaScript Task 01</title>
+    <title>IFE JavaScript Task 02</title>
 </head>
 <body>
 
@@ -26,12 +26,12 @@
         ["成都", 90],
         ["西安", 100]
     ];
-
+//筛选出大于60的城市
 function countQ() {
     document.write('最近污染城市：');
     for (i = 0; i < aqiData.length; i++) {
         if ( aqiData [i][1] >= 60 ) {
-            document.write( '<br/>' + aqiData[i][0] + '<br/>')
+           document.write(aqiData[i][0] + '<br/>');
         }
     }
 }
