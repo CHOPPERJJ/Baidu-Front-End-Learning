@@ -15,28 +15,27 @@
     <li>成都</li>
     <li>西安</li>
 </ul>
-<button type="button" onclick="countQ()">点我统计</button>
-<ul id ="aqi-flist">
-
-</ul>
-
+<button type="button" onclick="countQ()">点击显示</button>
 <script type="text/javascript">
 
     var aqiData = [
         ["北京", 90],
         ["上海", 50],
         ["福州", 10],
-        ["广州", 50],r
+        ["广州", 50],
         ["成都", 90],
         ["西安", 100]
     ];
 
-
-for (i = 0; i < aqiData.length; i++) {
-    if ( aqiData [i][1] >= 60 ) {
-        document.write(aqiData[i][1]);
+function countQ() {
+    document.write('最近污染城市：');
+    for (i = 0; i < aqiData.length; i++) {
+        if ( aqiData [i][1] >= 60 ) {
+            document.write( '<br/>' + aqiData[i][0] + '<br/>')
+        }
     }
-};
+}
+
         /*
         在注释下方编写代码
         遍历读取aqiData中各个城市的数据
