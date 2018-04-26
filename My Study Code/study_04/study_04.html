@@ -4,20 +4,21 @@
     <title>浏览器对象</title>
     <meta http-equiv="Content-Type" charset="UTF-8">
 </head>
-<body>
+<body onload="countTime()">
 <!--先编写好网页布局-->
 <h1>该页面可能会跳转哦！</h1>
-<p><input type="text" id="times" onclick="countTime()" style="border: none">秒后回到主页</p>
-<a onclick="jump()" href="www.baidu.com">返回</a>
+<p><span id="times">5</span>秒后回到主页</p>
+<a onclick="jump()" href="javascript:jump())">返回</a>
 
 <script type="text/javascript">
-    var num = 0;
+    var num = 5;
+    num = document.getElementById("times").innerHTML;
     function countTime() {
-    document.getElementById("times").value =num;
-    num = num + 1;
-    var i = setTimeout("countTime()",1000);
-    if(i > 5) {
-
+        num = document.getElementById("times").innerHTML;
+        num = num - 1;
+    setTimeout("countTime()", 1000);
+    if( num == 0 ) {
+        location.assign("www.imooc.com");
     }
 }
     function jump() {
